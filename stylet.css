@@ -1,0 +1,32 @@
+  body {
+  
+  position: relative;
+  overflow: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed; /* or absolute if inside a container */
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url('sky.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  z-index: -1; /* behind all content */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: hidden;
+   display: flex;
+     
+}
+
+.rainbow
+{
+    text-align: center;
+}
+.font
+{
+    
+    text-align: center;
+}
