@@ -9,39 +9,97 @@
 <body>
     <link rel="stylesheet" href="stylet1.css">
 
-    <p style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-align: center;color: black;font-size: xx-large;">TABLE OF Healthy AND Unhealthy FOODS</p><br><br>
- <div table>
-     </ol>
-    <table  style="text-align: center;"     border="1">
-        <tr>
-            <th>Healthy foods</th>
-            <th>Unhealthy foods</th>
-        </tr>
-        <tr>
-            <td>Fruits </td>
-            <td>Fried foods</td>
-        </tr>
-        <tr>
-            <td> Vegetables</td>
-            <td> Fast foods</td>
-        </tr>
-        <tr>
-            <td>whole grains </td>
-            <td>processed foods</td>
-        </tr>
-        <tr>
-            <td>nuts and seeds</td>
-            <td>sugary snacks</td>
-        </tr>
-        <tr>
-            <td>water and herbal tees</td>
-            <td>sugary drinks</td>
-        </tr>
-    </table></div><br>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  .table-container {
+    text-align: center;
+  }
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px 12px;
+  }
+  th {
+    background-color: #ddd;
+  }
+  .sidebar {
+    display: flex;
+    flex-direction:rows;
+    gap: 40px;
+    align-items: center;
+    
+  }
+  .sidebar a img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+  }
+  .sidebar a:hover img {
+    border-color: #555;
+  }
+</style>
+
+
+  <div class="table-container">
+    <h2>TABLE OF Healthy AND Unhealthy FOODS</h2>
+    <table>
+      <tr>
+        <th>Healthy foods</th>
+        <th>Unhealthy foods</th>
+      </tr>
+      <tr><td>Fruits</td><td>Fried foods</td></tr>
+      <tr><td>Vegetables</td><td>Fast foods</td></tr>
+      <tr><td>Whole grains</td><td>Processed foods</td></tr>
+      <tr><td>Nuts and seeds</td><td>Sugary snacks</td></tr>
+      <tr><td>Water and herbal teas</td><td>Sugary drinks</td></tr>
+    </table>
+  </div>
+
+</div>
+
+</body>
+</html>
+
 
     <p style="text-align:center;font-family: 'Times New Roman', Times, serif;color: black;font-size: xx-large;">click the below link:</p>
     <div class="muf">
- <a  style="font-size: xx-large;"   href="index.html"> Click to view famous foods</a>
+ <a  style="font-size: xx-large;"   href="index.html"> Click to view famous foods</a><br><br>
 </div>
 
+<div class="container">
+  
+  <div class="sidebar">
+    <a href="https://en.wikipedia.org/wiki/Fruit" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Fruits">
+    </a>
+    <a href="https://en.wikipedia.org/wiki/Vegetable" target="_blank">
+      <img src="vegetables.jpg" alt="Vegetables">
+    </a>
+    <a href="https://en.wikipedia.org/wiki/Whole_grain" target="_blank">
+      <img src="whole grains.jpg" alt="Whole grains">
+    </a>
+    <a href="https://en.wikipedia.org/wiki/Nut_(fruit)" target="_blank">
+      <img src="nuts&seed.jpg" alt="Nuts and seeds">
+    </a>
+    <a href="https://en.wikipedia.org/wiki/Herbal_tea" target="_blank">
+      <img src="ht.jpg" alt="Herbal teas">
+    </a>
+  </div>
+ </div><br>
+    <p style="font-size:xx-large;font-style: italic;text-align: center;">Click the images</p>
+ 
 </body>
